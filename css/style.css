@@ -1,0 +1,87 @@
+body{
+    
+  margin: 0px;
+    padding: 0px;
+}
+.bg{
+    background-image:url(../img/the-town-bg-01.jpg);
+    background-attachment: fixed;
+    height: auto;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.bg h2{
+    line-height: 3;
+}
+.bg h1{
+    font-size: 55px;
+    font-weight: 750;
+}
+.bg h3{
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 16px;
+}
+
+.wrap{
+    background-color: rgba(38, 62, 117, 0.92);
+}
+
+.h2-border{
+    background-color: rgba(0, 0, 0, 0.57);
+    border-radius: 50px;
+}
+
+.iframewrapper{
+
+    
+}
+.iframewrapper .tcb-responsive-video{
+    
+}
+#ifram{
+  width: 100%;
+
+}
+.row-ul-icon ul li{
+    padding: 7px;
+    font-size: 25px;
+    list-style: none;
+    word-spacing: 2px;
+    line-height: 2;
+    font-size: 19px;
+    margin-top: 20px;
+}
+.row-ul-icon i{
+    color: orangered;
+   
+} 
+
+.sd{
+    background-size: cover;
+    width: 100%;
+}
+.cont{
+    padding: 0;
+    height: auto;
+}
+.blue-bg{
+    background-color: rgb(40,63,117);
+}
+.card-edit h2{
+    padding-top: 12px;
+}
+
+.card-edit p{
+    font-size: 23px;
+    line-height: inherit;
+    padding: 20px;
+}
+.card-edit .image{
+    margin: 30px;
+}
+
