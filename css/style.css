@@ -13,7 +13,7 @@ body{
 }
 
 .bg h2{
-    line-height: 3;
+   
 }
 .bg h1{
     font-size: 55px;
@@ -34,8 +34,15 @@ body{
 .h2-border{
     background-color: rgba(0, 0, 0, 0.57);
     border-radius: 50px;
-}
 
+}
+@media(min-width:992px){
+    .h2-border{
+         background-color: rgba(0, 0, 0, 0.57);
+         height:70px;
+       padding-top: 20px;
+    }
+}
 .iframewrapper{
 
     
@@ -83,5 +90,56 @@ body{
 }
 .card-edit .image{
     margin: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+     flex-wrap: nowrap;
+}
+
+.int-acs-btn{
+    background-color: #D54421;
+    height: 80px;
+    padding-top: 10px;
+    border-radius: 80px;
+    box-shadow: none;
+    
+}
+.int-acs-btn:hover{
+    background-color: #FF6800;
+}
+.int-acs-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+}
+
+@media(max-width:463px){
+    .int-acs-btn a{
+        font-size: 20px;
+    }
+}
+
+#icon-cards-holder{
+   box-shadow: 1px 1px 16px 1px black;
+}
+.card-title{
+    text-align: center;
+    color: black;
+    
+}
+
+.white-bg h3{
+    line-height: 47px;
+    color: black;
+}
+.card-1{
+    background-color: white;
+
+}
+
+.grey-bg{
+    background-color: #EAF0F6;
 }
 
