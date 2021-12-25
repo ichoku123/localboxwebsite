@@ -22,7 +22,100 @@ body{
 .bg h3{
     line-height: 1.5;
 }
+.h1-activate-header{
+    display: none;
+}
 
+.p-client-header{
+        display: none;
+    }
+@media(max-width:1199px){
+    .h1-activate-header{
+    display: block;
+         --tcb-color-0: rgb(255, 255, 255);
+    -webkit-text-size-adjust: none;
+    text-rendering: auto !important;
+    text-align: center;
+    overflow-wrap: break-word;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: Rubik;
+    font-weight: 300;
+    color: rgb(245, 213, 35) !important;
+    line-height: 1.15em !important;
+    --tcb-applied-color: rgb(245, 213, 35)  !important;
+    --tve-applied-color: rgb(245, 213, 35)  !important;
+    font-size: 32px !important; 
+}
+    .h1-hide-first{
+        display: none;
+    }
+    
+    .h3-client-header{
+        display: none;
+    }
+    .p-client-header{
+        display: block;
+        --tcb-color-0: rgb(255, 255, 255);
+    -webkit-text-size-adjust: none;
+    text-rendering: auto !important;
+    text-align: center;
+    overflow-wrap: break-word;
+    max-width: 908px;
+    float: none;
+    margin: -30px auto 10px !important;
+    position: relative !important;
+    padding: 1px 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;
+    box-sizing: content-box;
+    }
+}
+.s{        --tcb-color-0: rgb(255, 255, 255);
+    -webkit-text-size-adjust: none;
+    text-rendering: auto !important;
+    text-align: center;
+    overflow-wrap: break-word;
+    max-width: 804px;
+    float: none;
+    overflow: hidden;
+    display: inline-block;
+    margin: -10px auto 20px !important;
+    position: relative !important;
+    padding: 15px 30px !important;
+    background-image: linear-gradient(rgb(23, 27, 56), rgb(23, 27, 56)), linear-gradient(54deg, rgb(244, 31, 57) 0%, rgb(236, 204, 81) 100%), linear-gradient(rgb(255, 95, 64), rgb(255, 95, 64)) !important;
+    border-radius: 40px !important;
+    background-size: auto, auto, auto !important;
+    background-position: 50% 50%, 50% 50%, 50% 50% !important;
+    background-attachment: scroll, scroll, scroll !important;
+    background-repeat: no-repeat, no-repeat, no-repeat !important;
+    --tve-applied-background-image: linear-gradient(rgb(23, 27, 56), rgb(23, 27, 56)), linear-gradient(54deg, rgb(244, 31, 57) 0%, rgb(236, 204, 81) 100%), linear-gradient(rgb(255, 95, 64), rgb(255, 95, 64))  !important;
+    padding-bottom: 0px !important;
+    margin-top: 0px !important;
+    box-sizing: border-box;
+}
+.h2-border{
+    display: none;
+}
+@media(min-width:957px){
+    .s{
+        display: none;
+    }
+    
+}
+@media(min-width:957px){
+    .h2-border{
+    display: block;
+    
+}
+.h2-border h2{
+    color: white;
+    margin-top: -13px;
+    
+}
+}
+   
 .container-fluid{
     padding: 16px;
 }
@@ -105,6 +198,9 @@ body{
     box-shadow: none;
     
 }
+#int-acs-btn{
+    background-color: #0A741F;
+}
 .int-acs-btn:hover{
     background-color: #FF6800;
 }
@@ -143,3 +239,187 @@ body{
     background-color: #EAF0F6;
 }
 
+.gif-blue-bg{
+    background-color: #283F75;
+}
+
+.vt span{
+    color: white;
+    vertical-align: middle;
+}
+
+
+/* copy */
+
+.tcb-flex-row .tcb-flex-col {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.thrv_wrapper div {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+@media (min-width: 300px)
+[data-css="tve-u-1750808aef2"] {
+    max-width: 38.5%;
+}
+.tcb-flex-col {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.gif-blue-bg h1{
+    --tcb-color-0: rgb(255, 255, 255);
+    text-rendering: auto !important;
+    overflow-wrap: break-word;
+    margin: 10px;
+    padding-bottom: 30px;
+    font-family: Rubik;
+    font-weight: 600;
+    font-size: 50px !important;
+    line-height: 1.4em !important;
+    text-align: center;
+    color: rgb(255, 255, 255) !important;
+}
+.gif-dark-blue-bg{
+    background-color: #243665;
+   
+}
+.p{
+   width: 30%;
+    border: 1px solid black;
+}
+
+.p p{
+      padding: 10px 50px 20px;
+    text-overflow: inherit;
+    width: 30%;
+    
+}
+.bubble-blue-bg{
+    
+	background-image: url(../img/bg22.png);
+    background-size: cover;
+    background-color: rgba(12, 43, 112, 0.76);
+ 
+    
+}
+
+.bubble-blue-bg h2{
+    text-align: center;
+    color: white;
+    padding: 40px 130px 40px;
+    font-size: 60px;
+    
+}
+
+@media(max-width: 1000px){
+    .bubble-blue-bg h2{
+    text-align: center;
+    color: white;
+    padding: 0px 0px 0px;
+        font-size: 40px;
+
+    }
+    
+        
+}
+
+.beta-h1-style{
+    display: none;
+}
+
+.nd-beta-style{
+    display: block;
+}
+@media(min-width: 1000px){
+    .beta-h1-style{
+        display: block;
+    }
+    
+    .nd-beta-style{
+        display: none;
+    }
+    
+}
+
+
+.bubble-blue-bg img{
+    margin: 20px;
+}
+.shape-fill{
+    fill: rgba(13, 46, 120, 0.99);
+   
+}
+.dark-bubble-bg{
+    background-image: url(../img/Bg-1d.png);
+    background-color: rgba(13, 46, 120, 0.97);
+    
+}
+.dark-bubble-bg p,h5{
+    padding: 20px 70px 20px;
+    font-size: 25px;
+    font-weight: 400px;
+    color: white;
+}
+
+@media(max-width:991px){
+    .dark-bubble-bg p,h5{
+    padding: 0px 0px 0px;
+    font-size: 21px;
+    font-weight: 800px;
+    color: white;
+}
+
+}
+
+.white-bg-bubles{
+    background-image: url(../img/secbg4-1.png);
+    background-size: cover;
+}
+
+.white-bg-bubles h5, h2{
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+.flex-icons-clients{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.computer-bg{
+    background-image: url(../img/computer-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+    
+}
+
+   
+
+.tve-page-section-in{ --tcb-color-0: rgb(255, 255, 255);
+    -webkit-text-size-adjust: none;
+    text-rendering: auto !important;
+    background-image: linear-gradient(rgba(47, 62, 117, 0.95), rgba(47, 62, 117, 0.95)), url("https://localagencybox.com/wp-content/uploads/2020/10/TopBg5b-scaled.jpg") !important;
+    background-size: auto, cover !important;
+    background-position: 50% 50%, 50% 50% !important;
+    background-repeat: no-repeat, no-repeat !important;
+    --tve-applied-background-image: linear-gradient(rgba(47, 62, 117, 0.95), rgba(47, 62, 117, 0.95)), url("https://localagencybox.com/wp-content/uploads/2020/10/TopBg5b-scaled.jpg")  !important;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    transition: box-shadow .5s ease, -webkit-box-shadow .5s ease;
+    overflow: hidden;
+    background-attachment: scroll !important;
+    width: 100%;}
+
+}
