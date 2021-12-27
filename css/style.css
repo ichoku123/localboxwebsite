@@ -394,32 +394,78 @@ body{
 }
 
 .computer-bg{
-    background-image: url(../img/computer-bg.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: auto;
+    background-color: #F2F8FE;
     
 }
 
+
    
 
-.tve-page-section-in{ --tcb-color-0: rgb(255, 255, 255);
-    -webkit-text-size-adjust: none;
-    text-rendering: auto !important;
-    background-image: linear-gradient(rgba(47, 62, 117, 0.95), rgba(47, 62, 117, 0.95)), url("https://localagencybox.com/wp-content/uploads/2020/10/TopBg5b-scaled.jpg") !important;
-    background-size: auto, cover !important;
-    background-position: 50% 50%, 50% 50% !important;
-    background-repeat: no-repeat, no-repeat !important;
-    --tve-applied-background-image: linear-gradient(rgba(47, 62, 117, 0.95), rgba(47, 62, 117, 0.95)), url("https://localagencybox.com/wp-content/uploads/2020/10/TopBg5b-scaled.jpg")  !important;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    box-sizing: border-box;
-    transition: box-shadow .5s ease, -webkit-box-shadow .5s ease;
-    overflow: hidden;
-    background-attachment: scroll !important;
-    width: 100%;}
+@media(max-width:600px){
+    .three-imgs-resp img{
+        width: 90%;
+    }
+}
 
+@media(max-width:363px){
+    lottie-player{
+        width: 100px;
+        
+    }
+}
+
+.step-blue-bg{
+    background-color: #283F75;
+}
+
+.step-h2{
+    padding: 50px 30% 20px;
+}
+
+@media(max-width: 760px){
+    .step-h2{
+    padding: 50px 0px 20px;
+}
+    
+        
+}
+
+.flex-box-3{
+    display: flex;
+    justify-content: center;
+}
+
+
+.box-1 h3{
+     padding: 50px 8% 20px;
+    font-size: 45px;
+    color: white;
+     font-weight: 560;
+   
+}
+
+@media(max-width: 760px){
+    .box-1 h3{
+     padding: 0px 0px 40px;
+    font-size: 28px;
+       
+    
+}
+    .box-1 img{
+        width: 180px;
+        margin-top: 0px;
+    }
+.flex-box-3{
+    display: flex;
+    flex-direction: column;
+    
+}
+    
+        
+}
+
+.second-video-bg{
+    background-image: url(../img/secbg1.png);
+    background-size: cover;
+    background-color: rgba(230, 242, 249, 0.74);
 }
