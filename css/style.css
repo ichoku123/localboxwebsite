@@ -1,15 +1,20 @@
-body{
-    
-  margin: 0px;
-    padding: 0px;
+@media only screen and (max-width: 768px){
+    html,
+    body{
+    width:100%;
+    overflow-x:hidden;
+    }
 }
+
 .bg{
-    background-image:url(../img/the-town-bg-01.jpg);
+    background-image:url(../img/TopBg5b-scaled.jpg);
     background-attachment: fixed;
     height: auto;
     text-align: center;
     color: white;
     overflow: hidden;
+    width: 100%;
+    background-size: cover;
 }
 
 .bg h2{
@@ -468,4 +473,119 @@ body{
     background-image: url(../img/secbg1.png);
     background-size: cover;
     background-color: rgba(230, 242, 249, 0.74);
+}
+
+.kitgz{
+        --tcb-color-0: rgb(255, 255, 255);
+    text-rendering: auto !important;
+    -webkit-box-direction: normal;
+    overflow-wrap: break-word;
+    padding: 1px;
+    overflow: hidden;
+    max-width: 210px;
+    background-image: linear-gradient(rgb(255, 95, 64), rgb(255, 95, 64)), linear-gradient(185deg, rgb(236, 204, 81) 0%, rgb(66, 147, 33) 100%) !important;
+    background-size: auto, auto !important;
+    background-position: 50% 50%, 50% 50% !important;
+    background-attachment: scroll, scroll !important;
+    background-repeat: no-repeat, no-repeat !important;
+    border-radius: 90px 0px !important;
+    padding-top: 6px !important;
+    padding-bottom: 4px !important;
+    margin-top: 0px !important;
+    --tve-applied-background-image: linear-gradient(rgb(255, 95, 64), rgb(255, 95, 64)), linear-gradient(185deg, rgb(236, 204, 81) 0%, rgb(66, 147, 33) 100%)  !important;
+    margin-right: 170px !important;
+    box-sizing: content-box;
+    margin: 0;
+}
+.kitgz p{
+        --tcb-color-0: rgb(255, 255, 255);
+    text-rendering: auto !important;
+    -webkit-box-direction: normal;
+    overflow-wrap: break-word;
+    --tve-applied-background-image: linear-gradient(rgb(255, 95, 64), rgb(255, 95, 64)), linear-gradient(185deg, rgb(236, 204, 81) 0%, rgb(66, 147, 33) 100%)  !important;
+    margin: 0;
+    padding: 0;
+    font-family: Rubik;
+    font-weight: 400;
+    color: rgb(255, 255, 255) !important;
+    font-size: 24px !important;
+}
+
+.kit-h2{
+    text-align: left !important;
+    font-size: 23px;
+    line-height: 40px;
+    color: none;
+    overflow-wrap:break-word;
+    padding-right: 10%;
+}
+@media(max-width:1000px){
+    .kit-h2{
+ 
+    padding-right: 0%;
+}.special-bonus-h2{
+
+    padding-right: 0%;
+}
+}
+.special-bonus-h2{
+     text-align: left !important;
+    font-size: 25px;
+    line-height: 40px;
+    color: white;
+    overflow-wrap:break-word;
+    padding-right: 5%;
+}
+.kitz-row-pad{
+    padding: 70px 20px;
+}
+
+.light-grey-bg{
+    background-color: #F3F3F9;
+}
+
+.special-bonus-bg-img{
+    background-image: url(../img/Bg11b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dotted-bubble-bg{
+        --tcb-color-0: rgb(255, 255, 255);
+    text-rendering: auto !important;
+    background-image: url("https://localagencybox.com/wp-content/uploads/2020/10/video-bg-1.png") !important;
+    background-size: auto !important;
+    background-position: 50% 50%, 50% 50% !important;
+ margin: 0;
+    background-attachment: fixed !important;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: box-shadow .5s ease, -webkit-box-shadow .5s ease;
+    
+    
+     --tcb-color-0: rgb(255, 255, 255);
+    text-rendering: auto !important;
+    -webkit-box-direction: normal;
+    overflow-wrap: break-word;
+    padding: 1px;
+    background-position: 50% 50%, 50% 50% !important;
+    background-repeat: no-repeat, no-repeat !important;
+    box-sizing: content-box;
+    margin: 0;
+
+}
+.dotted-bubble-bg-flex-img{
+    display: flex;
+    justify-content: center;
+}
+
+.added-svg-bg-color{
+    background-color:  #243665;
+}
+.path-fill-blue{
+    fill: #243665;
+}
+.svg-h2-style h2{
+    color: white;
 }
