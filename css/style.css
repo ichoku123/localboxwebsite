@@ -820,3 +820,42 @@
 }
 }  
 
+
+/* Floating Social Media Bar Style Starts Here */
+
+.fl-fl {
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  padding: 4px;
+  width: 100px;
+  position: fixed;
+  right: -169px;
+  z-index: 1000;
+  font: normal normal 10px Arial;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.fl-fl:hover {
+  right: 30px;
+}
+
+.fl-fl a {
+  color: #008e37 !important;
+  text-decoration: none;
+  text-align: center;
+  font-size: 10px;
+    font-weight: 500px;
+  vertical-align: top!important;
+}
+
+.float-fb {
+  bottom:0px;
+    right: 0px;
+}
+
+
+/* Floating Social Media Bar Style Ends Here */
