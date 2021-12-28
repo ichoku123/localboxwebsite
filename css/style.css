@@ -482,7 +482,7 @@
     overflow-wrap: break-word;
     padding: 1px;
     overflow: hidden;
-    max-width: 210px;
+    min-width: 250px;
     background-image: linear-gradient(rgb(255, 95, 64), rgb(255, 95, 64)), linear-gradient(185deg, rgb(236, 204, 81) 0%, rgb(66, 147, 33) 100%) !important;
     background-size: auto, auto !important;
     background-position: 50% 50%, 50% 50% !important;
@@ -548,6 +548,7 @@
     background-image: url(../img/Bg11b.png);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 .dotted-bubble-bg{
@@ -588,4 +589,192 @@
 }
 .svg-h2-style h2{
     color: white;
+}
+
+.early-bird-br{
+        --tcb-color-0: rgb(255, 255, 255);
+    text-rendering: auto !important;
+    -webkit-box-direction: normal;
+    overflow-wrap: break-word;
+    padding: 1px;
+    overflow: hidden;
+    min-width: 255px;
+    background-image: linear-gradient(rgb(255, 95, 64), rgb(255, 95, 64)), linear-gradient(185deg, rgb(236, 204, 81) 0%, rgb(66, 147, 33) 100%) !important;
+    background-size: auto, auto !important;
+    background-position: 50% 50%, 50% 50% !important;
+    background-attachment: scroll, scroll !important;
+    background-repeat: no-repeat, no-repeat !important;
+    border-radius: 35px !important;
+    padding-top: 6px !important;
+    padding-bottom: 4px !important;
+    margin-top: 0px !important;
+    --tve-applied-background-image: linear-gradient(rgb(255, 95, 64), rgb(255, 95, 64)), linear-gradient(185deg, rgb(236, 204, 81) 0%, rgb(66, 147, 33) 100%)  !important;
+    margin-right: 170px !important;
+    box-sizing: content-box;
+    margin: 0;
+}
+.early-bird-br p{
+        --tcb-color-0: rgb(255, 255, 255);
+    text-rendering: auto !important;
+    -webkit-box-direction: normal;
+    overflow-wrap: break-word;
+    --tve-applied-background-image: linear-gradient(rgb(255, 95, 64), rgb(255, 95, 64)), linear-gradient(185deg, rgb(236, 204, 81) 0%, rgb(66, 147, 33) 100%)  !important;
+    margin: 0;
+    padding: 0;
+    font-family: Rubik;
+    font-weight: 400;
+    color: rgb(255, 255, 255) !important;
+    font-size: 24px !important;
+}
+@media(max-width:720px){
+    .early-bird-blue-bg .special-bonus-h2{
+     font-size: 25px;
+        padding: 0px;
+        margin: 0px;
+        overflow-wrap: break-word;
+       
+}.early-bird li{
+   padding: 0px;
+    font-size: 19px;
+    list-style: none;
+    color: white;
+    margin: 0px;
+}.early-bird i{
+    color: orangered;
+    font-size: 16px;
+    margin: 1px;
+}
+
+}
+
+
+.early-bird-blue-bg{
+    background-color: #243665;
+    overflow-wrap: break-word; 
+}
+
+.early-bird li{
+   padding: 0px;
+    font-size: 23px;
+    list-style: none;
+    color: white;
+    margin: 0px;
+}
+
+.early-bird i{
+    color: orangered;
+    font-size: 26px;
+    margin: 4px;
+}
+
+.path-fill-grey{
+    fill:#F2F8FE;
+}
+.svg-bg{
+    background-color: #F2F8FE;
+}
+.ul-li ol li{
+    color: #151B38;
+    font-size: 21px;
+    font-weight: 600;
+    counter-increment: list;
+  list-style-type: none;
+  
+}
+
+.ul-li ol li:before{
+   color: #e75204;
+  content: counter(list) ".";
+  
+}
+
+.ul-li ol{
+    font-size: 23px;
+}
+.text-h2-style h2{
+    font-size: 20px;
+    color: #151B38;
+    overflow-wrap:break-word;
+    
+}
+
+.last-flex-box{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.edit-border{
+    background-color: white;
+   box-shadow: 1px 1px 6px 0px black;
+    border-radius: 7px;
+    border-right: 10px solid #FF4500;
+    padding: 0px;
+}
+
+@media(min-width:1000px){
+    .edit-border{
+    background-color: white;
+   box-shadow: 1px 1px 6px 0px black;
+    border-radius: 7px;
+    border-right: 7px solid #FF4500;
+    width:750px;
+}.edit-border-blue{
+    width: 750px;
+}
+}
+.edit-border-blue{
+    background-color: white;
+   box-shadow: 1px 1px 6px 0px black;
+    border-radius: 7px;
+    border-right: 7px solid #171D3A;
+    padding: 0px;
+}
+
+.beta-test-two{
+    background-color:  #243665;
+}
+
+.guarantee-bg{
+    background-image: url(../img/cusbg.png);
+    background-color:  rgb(32, 49, 82);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.guarantee-bg-two{
+    
+    background-color:  rgba(32, 49, 82, 0.69);
+}
+.FAQ h1{
+    text-align: center;
+    padding: 40px;
+    color: #151B38;
+    font-weight: 700;
+}
+.dropzone h2{
+     margin: 30px;
+    text-align: left !important;
+}
+.dropzone{
+     margin: 50px;
+}
+
+@media(max-width:770px){
+    .FAQ h1{
+    padding: 0px;
+
+}
+.dropzone h2{
+     margin: 0px;
+    text-align: left !important;
+}
+.dropzone{
+     margin: 0px;
+}
+}
+.FAQ{
+    background-image: url(../img/DB-O4-20-StructureBody-07-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
