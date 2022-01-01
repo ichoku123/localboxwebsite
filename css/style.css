@@ -859,3 +859,27 @@
 
 
 /* Floating Social Media Bar Style Ends Here */
+@media(max-width:400px){
+   iframe{
+    border: 20px solid black;
+    height: 180px !important;
+    border-radius: 20px;
+} 
+}
+
+@media(max-width:320px){
+   iframe{
+    border: 20px solid black;
+    height: 162px !important;
+} 
+}
+
+@media(max-width:280px){
+   iframe{
+    border:none;
+       height: auto;
+} 
+}
+
+
+
